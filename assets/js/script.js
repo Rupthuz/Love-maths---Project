@@ -63,12 +63,12 @@ function calculateCorrectAnwer() {
 }
 
 function incrementScore() {
-    let oldScore = parseInt(document.getElementById("score").innerText;
+    let oldScore = parseInt(document.getElementById("score").innerText);
     document.getElementById("score").innerText = ++oldScore;
 }
 
 function incrementWrongAnswer() {
-    let oldScore = parseInt(document.getElementById("incorrect").innerText;
+    let oldScore = parseInt(document.getElementById("incorrect").innerText);
     document.getElementById("incorrect").innerText = ++oldScore;
 }
 
